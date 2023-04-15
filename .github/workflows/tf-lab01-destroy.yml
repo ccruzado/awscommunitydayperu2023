@@ -5,8 +5,8 @@ on:
 
 jobs:
   
-  tf-lab01-apply:
-    name: tf-lab01-apply
+  tf-lab01-destroy:
+    name: tf-lab01-destroy
     runs-on: ubuntu-latest
     env: 
       AWS_DEFAULT_REGION: "us-east-1"
